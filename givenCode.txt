@@ -1,0 +1,81 @@
+Commands:   
+=========
+"hire"
+"setupTeam"
+"joinTeam"
+"changeTeam"
+
+"createProject"
+"takeProject"
+"suggestTeam"
+
+"startNewDay"
+
+"listProjects"
+"listEmployees"
+"listTeams"
+
+"undo"
+"redo"
+
+"showProjectWorkerDetails"
+"showEmployeeDetails"
+
+
+Heading and listing
+===================
+System.out.printf("%-15s%-10s%-14s%-20s\n", "Team Name", "Leader", "Setup Date", "Members");
+System.out.print("(no member)");
+
+System.out.printf("%-9s%-14s%-13s%-13s%-13s\n", "Project", "Est manpower", "Team", "Start Day", "End Day");
+
+System.out.printf("%s (Work period: %s)\n",____________,____________);
+
+System.out.println("Est manpower : " + _______________ + " man-days");
+System.out.println("Team         : " + _______________ + " (Leader is " + _______________ + ")");
+System.out.println("Work period  : " + _______________);
+System.out.println("\nMembers: ");
+
+System.out.println("The teams that " + _______________ + " has joined: ");
+System.out.printf("%s (%s)\n", ______________, ________________);
+System.out.printf("%s (%s), as a leader\n", ______________, ________________);
+
+_____________ + " to " + ______________;
+_____________ + " to " + "--";
+
+
+
+Exception Handling
+==================
+"Insufficient command arguments."
+"Wrong number format -- Please enter an integer."
+
+"Team does not exist."
+"Team name already exists."
+
+"The old and new teams should not be the same."
+
+"Start day is invalid."
+"Invalid date."
+"The earliest start day is tomorrow."
+
+"Project does not exist."
+"Project code already exists."
+"Estimated manpower should not be zero or negative."
+"Consider changing " + _______________ + " to a positive non-zero amount."
+"Project has already been assigned to a team."
+"The team is not available during the period " + "(" + _____________ + ")."	
+
+"Employee name does not exist."
+"Employee name already exists."
+"Employee has joined a team already."
+
+
+Others
+======
+"Done."
+"Nothing to undo."
+"Nothing to redo."
+"Cannot create one more system date instance."
+"Please input the file pathname: "
+"No team"
